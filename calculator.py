@@ -8,17 +8,17 @@ while True:
             continue
         result = num1/num2
 
-    if operation == "%":
+    elif operation == "%":
         result = num1%num2 
 
 
-    if operation == "*":
+    elif operation == "*":
         result = num1*num2 
 
-    if operation == "-":
+    elif operation == "-":
         result = num1 - num2 
 
-    if operation == "+":   
+    elif operation == "+":   
         result = num1 + num2
 
     else:
